@@ -10,10 +10,10 @@ const Title = styled.h1`
     z-index: 100;
     color: white;
     top: 50%;
-    left: 30%;
+    left: 33.4%;
     transform: translate(-50%, -50%);
-    font-size: 3.4rem;
-
+    font-size: 3.8rem;
+    letter-spacing: 5px;
 `;
 
 const OrderButton = styled.button`
@@ -23,19 +23,19 @@ const OrderButton = styled.button`
   border: 0;
   position: absolute;
   bottom: 30%;
-  right: 76%;
+  right: 73.5%;
   transform: translate(-50%, -50%);
-  font-size: 1.4rem;
-  
+  font-size: 1.2rem;
+  cursor: pointer;
 `;
 
 
-export const Section = () =>{
+export const FirstSection = () =>{
     return(
         <>
         <PrincipalContainer>
         <img src={ImagenBackground} width="100%"alt="" />
-        <Title>LET'S MAKE THE PERFECTION</Title>
+        <Title>LET'S TASTE PERFECTION</Title>
         <OrderButton>ORDER NOW</OrderButton>
         </PrincipalContainer>
         </>

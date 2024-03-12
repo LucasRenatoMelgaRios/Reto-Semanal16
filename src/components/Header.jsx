@@ -27,8 +27,8 @@ const EnlacesNav = styled.a`
 export const Header = () =>{
     return(
         <>
-        <HeaderContainer style={{fontSize: "3rem", color: "red"}}>
-        <EnlacesNav>BAKERY</EnlacesNav>
+        <HeaderContainer>
+        <EnlacesNav  style={{fontSize: "1.5rem", fontFamily: "'Source Sans Pro', sans-serif"}}>BAKERY</EnlacesNav>
             <BarraNav>
                 <EnlacesNav>HOME</EnlacesNav>
                 <EnlacesNav>ABOUT US</EnlacesNav>

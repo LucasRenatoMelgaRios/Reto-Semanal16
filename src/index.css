@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+
 *{
   padding: 0;
   margin: 0;
@@ -14,11 +18,15 @@ li, a{
 }
 
 
+
+
 h1{
-  font-family: var(--title-font);
-  font-weight: 200;
+	font-family: "Poiret One", sans-serif;
+	font-weight: 200;
 
 }
+
+
 :root {
 	--main-font: 'Source Sans Pro', sans-serif;
 	--secondary-font: 'Poiret One', cursive;
